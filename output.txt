@@ -1,0 +1,1587 @@
+C:\Users\Public\Downloads\python\python-3.6.2.amd64\python.exe "C:/Users/Ravikumar Nagarajan/Desktop/cip/avsrcode/upload/avsr.py"
+C:\Users\Public\Downloads\python\python-3.6.2.amd64\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+2018-04-24 14:33:38.294403: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\platform\cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2018-04-24 14:33:39.491034: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1212] Found device 0 with properties:
+name: GeForce 940MX major: 5 minor: 0 memoryClockRate(GHz): 1.2415
+pciBusID: 0000:01:00.0
+totalMemory: 2.00GiB freeMemory: 1.66GiB
+2018-04-24 14:33:39.491393: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-24 14:33:40.828889: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 1429 MB memory) -> physical GPU (device: 0, name: GeForce 940MX, pci bus id: 0000:01:00.0, compute capability: 5.0)
+#####TRAINING PHASE####5
+trimming/train/digits/1/0175_one.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/1/0175_one.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T05:43:33.000000Z
+  Duration: 00:00:01.37, start: 0.000000, bitrate: 10208 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 10105 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:43:33.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 91 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:43:33.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:43:33.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+[aac @ 000001e7c86e6500] Input buffer exhausted before END element found
+Error while decoding stream #0:1: Invalid data found when processing input
+size=      42kB time=00:00:01.34 bitrate= 256.5kbits/s speed=0.969x
+video:0kB audio:42kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.180991%
+1
+ audio cost : 80.22753
+Final video cost : 0.19432329
+trimming/train/digits/2/0175_two.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/2/0175_two.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T05:45:13.000000Z
+  Duration: 00:00:01.25, start: 0.000000, bitrate: 9288 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 9330 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:45:13.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 100 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:45:13.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:45:13.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      39kB time=00:00:01.25 bitrate= 256.5kbits/s speed=1.06x
+video:0kB audio:39kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.194397%
+1
+ audio cost : 116.504265
+Loss is less than threshold(0.05) stopping training
+Final video cost : 0.13175486
+trimming/train/digits/3/0175_three.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/3/0175_three.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T05:51:14.000000Z
+  Duration: 00:00:01.18, start: 0.000000, bitrate: 9716 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 9750 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:51:14.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 99 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:51:14.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:51:14.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      37kB time=00:00:01.18 bitrate= 256.5kbits/s speed=0.845x
+video:0kB audio:37kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.205826%
+1
+ audio cost : 129.85895
+Loss is less than threshold(0.05) stopping training
+Final video cost : 0.13538587
+trimming/train/digits/4/0175_four.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/4/0175_four.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T05:53:07.000000Z
+  Duration: 00:00:01.49, start: 0.000000, bitrate: 9441 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 9455 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:53:07.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 99 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:53:07.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:53:07.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      47kB time=00:00:01.48 bitrate= 256.4kbits/s speed=1.04x
+video:0kB audio:46kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.164024%
+1
+ audio cost : 51.19777
+Loss is less than threshold(0.05) stopping training
+Final video cost : 0.15840858
+trimming/train/digits/5/0175_five.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/5/0175_five.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T06:39:50.000000Z
+  Duration: 00:00:01.49, start: 0.000000, bitrate: 8662 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 8666 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:39:50.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 99 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:39:50.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:39:50.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      47kB time=00:00:01.48 bitrate= 256.4kbits/s speed=0.991x
+video:0kB audio:46kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.164024%
+1
+ audio cost : 57.82658
+Final video cost : 0.31715614
+trimming/train/digits/6/0175_six.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/6/0175_six.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T06:45:43.000000Z
+  Duration: 00:00:01.51, start: 0.000000, bitrate: 9078 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 9025 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:45:43.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 100 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:45:43.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:45:43.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      47kB time=00:00:01.50 bitrate= 256.4kbits/s speed=1.09x
+video:0kB audio:47kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.161497%
+1
+ audio cost : 52.162598
+Final video cost : 0.2676041
+trimming/train/digits/7/0175_seven.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/7/0175_seven.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T06:46:25.000000Z
+  Duration: 00:00:01.28, start: 0.000000, bitrate: 8835 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 8796 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:46:25.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 99 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:46:25.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:46:25.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      40kB time=00:00:01.27 bitrate= 256.5kbits/s speed=0.95x
+video:0kB audio:40kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.190858%
+1
+ audio cost : 107.596695
+Final video cost : 0.15533774
+trimming/train/digits/8/0175_eight.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/8/0175_eight.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T06:48:55.000000Z
+  Duration: 00:00:01.39, start: 0.000000, bitrate: 8628 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 8683 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:48:55.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 99 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:48:55.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:48:55.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      44kB time=00:00:01.39 bitrate= 256.4kbits/s speed=0.986x
+video:0kB audio:44kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.174958%
+1
+ audio cost : 53.31695
+Final video cost : 0.1876212
+trimming/train/digits/9/0175_nine.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/9/0175_nine.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T06:49:59.000000Z
+  Duration: 00:00:01.51, start: 0.000000, bitrate: 8921 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 8867 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:49:59.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 99 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:49:59.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:49:59.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      47kB time=00:00:01.50 bitrate= 256.4kbits/s speed= 1.1x
+video:0kB audio:47kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.161497%
+1
+ audio cost : 43.226467
+Final video cost : 0.18414228
+trimming/train/digits/ten/0175_ten.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/ten/0175_ten.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T06:50:33.000000Z
+  Duration: 00:00:01.42, start: 0.000000, bitrate: 9165 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 9162 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:50:33.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 100 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:50:33.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:50:33.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      44kB time=00:00:01.41 bitrate= 256.4kbits/s speed=0.989x
+video:0kB audio:44kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.172087%
+1
+ audio cost : 18.402678
+Final video cost : 0.22762807
+[6 7 2 2 2 0 0 0 0 0 0 0 0 3 0 5 5 5 0 5 2 2 5 2 2 5 2 2 2 0 2 2 2 2 0 2 0
+ 5 3 5 5 0 0 2 0 0 0 5 0 0 5 2 1 1 1 2 1 5 2 2 1 2 2 2 2 2 2 1 1 1 2 2 2 5
+ 5 2 2 2 0 0 5 0 0 0 0 0 0 5 0 0 2 2 2 5 2 2 2 2 2 2 5 2 2 2 2 5 2 2 5 2 2
+ 2 2 1 1 1 1 1 1 3 2 1 1 1 1 1 1 1 1 1 1 1 1 1 4 4 4 4 4 4 4 4 4 0 0 0 2 0
+ 5 3 2 2 3 3 3 3 3 4 0 0 0 0 4 0 4 0 4 4 4 4 0 4 4 4 4 4 4 1 1 1 1 2 2 2 2
+ 2 2 5 2 2 2 2 2 2 2 2 5 5 5 5 5 0 4 5 5 5 0 5 5 0 5 5 5 5 0 5 4 4 4 4 4 4
+ 4 4 4 4 4 4 4 4 5 5 5 2 2 3 5 2 2 2 2 2 2 5 2 5 0 5 5 5 0 0 0 0 1 5 1 1 2
+ 1 1 1 1 1 2 5 2 2 5 2 2 1 1 1 2 1 5 5 5 5 5 5 5 5 5 0 0 5 0 4 0 5 4 5 0 0
+ 0 0 4 1 0 2 1 1 1 2 1 1 2 2 1 2 5 2 5 1 0 1 2 2 2 2 2 1 1 0 0 0 0 0 4 0 4
+ 0 4 0 5 4 0 0 0 5 5 5 2 2 5 5 5 5 2 2 2 2 2 1 2 1 2 2 1 2 2 2 2 2 2 2 2 0
+ 0 4 0 4 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 5 0 0 0 0 0
+ 0 5 5 5]
+#####TRAINING PHASE####6
+trimming/train/digits/1/0175_one.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/1/0175_one.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T05:43:33.000000Z
+  Duration: 00:00:01.37, start: 0.000000, bitrate: 10208 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 10105 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:43:33.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 91 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:43:33.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:43:33.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+[aac @ 00000201513963c0] Input buffer exhausted before END element found
+Error while decoding stream #0:1: Invalid data found when processing input
+size=      42kB time=00:00:01.34 bitrate= 256.5kbits/s speed=0.955x
+video:0kB audio:42kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.180991%
+1
+ audio cost : 114.04609
+Final video cost : 0.22004259
+42
+(6, 7)
+trimming/train/digits/2/0175_two.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/2/0175_two.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T05:45:13.000000Z
+  Duration: 00:00:01.25, start: 0.000000, bitrate: 9288 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 9330 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:45:13.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 100 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:45:13.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:45:13.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      39kB time=00:00:01.25 bitrate= 256.5kbits/s speed=1.66x
+video:0kB audio:39kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.194397%
+1
+ audio cost : 29.26844
+Final video cost : 0.17088267
+42
+(6, 7)
+trimming/train/digits/3/0175_three.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/3/0175_three.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T05:51:14.000000Z
+  Duration: 00:00:01.18, start: 0.000000, bitrate: 9716 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 9750 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:51:14.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 99 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:51:14.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:51:14.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      37kB time=00:00:01.18 bitrate= 256.5kbits/s speed=1.64x
+video:0kB audio:37kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.205826%
+1
+ audio cost : 92.193596
+Final video cost : 0.20180628
+36
+(6, 6)
+trimming/train/digits/4/0175_four.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/4/0175_four.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T05:53:07.000000Z
+  Duration: 00:00:01.49, start: 0.000000, bitrate: 9441 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 9455 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:53:07.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 99 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:53:07.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:53:07.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      47kB time=00:00:01.48 bitrate= 256.4kbits/s speed=1.98x
+video:0kB audio:46kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.164024%
+1
+ audio cost : 30.870235
+Final video cost : 0.22345237
+48
+(6, 8)
+trimming/train/digits/5/0175_five.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/5/0175_five.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T06:39:50.000000Z
+  Duration: 00:00:01.49, start: 0.000000, bitrate: 8662 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 8666 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:39:50.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 99 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:39:50.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:39:50.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      47kB time=00:00:01.48 bitrate= 256.4kbits/s speed=1.94x
+video:0kB audio:46kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.164024%
+1
+ audio cost : 71.08461
+Final video cost : 0.3280244
+48
+(6, 8)
+trimming/train/digits/6/0175_six.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/6/0175_six.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T06:45:43.000000Z
+  Duration: 00:00:01.51, start: 0.000000, bitrate: 9078 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 9025 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:45:43.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 100 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:45:43.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:45:43.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      47kB time=00:00:01.50 bitrate= 256.4kbits/s speed=1.99x
+video:0kB audio:47kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.161497%
+1
+ audio cost : 22.63296
+Final video cost : 0.22136548
+48
+(6, 8)
+trimming/train/digits/7/0175_seven.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/7/0175_seven.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T06:46:25.000000Z
+  Duration: 00:00:01.28, start: 0.000000, bitrate: 8835 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 8796 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:46:25.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 99 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:46:25.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:46:25.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      40kB time=00:00:01.27 bitrate= 256.5kbits/s speed=1.67x
+video:0kB audio:40kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.190858%
+1
+ audio cost : 52.810814
+Final video cost : 0.20657596
+42
+(6, 7)
+trimming/train/digits/8/0175_eight.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/8/0175_eight.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T06:48:55.000000Z
+  Duration: 00:00:01.39, start: 0.000000, bitrate: 8628 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 8683 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:48:55.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 99 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:48:55.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:48:55.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      44kB time=00:00:01.39 bitrate= 256.4kbits/s speed=1.82x
+video:0kB audio:44kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.174958%
+1
+ audio cost : 78.90023
+Final video cost : 0.3293767
+42
+(6, 7)
+trimming/train/digits/9/0175_nine.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/9/0175_nine.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T06:49:59.000000Z
+  Duration: 00:00:01.51, start: 0.000000, bitrate: 8921 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 8867 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:49:59.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 99 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:49:59.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:49:59.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      47kB time=00:00:01.50 bitrate= 256.4kbits/s speed=1.89x
+video:0kB audio:47kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.161497%
+1
+ audio cost : 15.707981
+Final video cost : 0.23805586
+48
+(6, 8)
+trimming/train/digits/ten/0175_ten.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/ten/0175_ten.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T06:50:33.000000Z
+  Duration: 00:00:01.42, start: 0.000000, bitrate: 9165 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 9162 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:50:33.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 100 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:50:33.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:50:33.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      44kB time=00:00:01.41 bitrate= 256.4kbits/s speed=1.79x
+video:0kB audio:44kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.172087%
+1
+ audio cost : 56.075863
+Final video cost : 0.1563512
+48
+(6, 8)
+####TESTING PHASE#####
+trimming/train/digits/1/0175_one.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/1/0175_one.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T05:43:33.000000Z
+  Duration: 00:00:01.37, start: 0.000000, bitrate: 10208 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 10105 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:43:33.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 91 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:43:33.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:43:33.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+[aac @ 00000238a9dc6180] Input buffer exhausted before END element found
+Error while decoding stream #0:1: Invalid data found when processing input
+size=      42kB time=00:00:01.34 bitrate= 256.5kbits/s speed=1.87x
+video:0kB audio:42kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.180991%
+ audio cost : 100.26154
+Final video cost : 0.67181426
+42
+(6, 7)
+43.753070944097395
+39.540664120372824
+41.21733677276099
+32.88934474072836
+40.04884464726508
+34.27494031151184
+37.24311701295616
+35.9446097594352
+32.26547702286649
+32.30387529614344
+The predicted val is ஒன்று
+trimming/train/digits/2/0175_two.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/2/0175_two.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T05:45:13.000000Z
+  Duration: 00:00:01.25, start: 0.000000, bitrate: 9288 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 9330 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:45:13.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 100 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:45:13.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:45:13.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      39kB time=00:00:01.25 bitrate= 256.5kbits/s speed= 1.6x
+video:0kB audio:39kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.194397%
+ audio cost : 64.7599
+Final video cost : 0.69394636
+42
+(6, 7)
+25.531783702368337
+44.774576951717776
+31.94011047520721
+33.76396714175225
+35.100053289054735
+35.802903503835395
+40.419042948758246
+33.16294271089996
+28.436866701028038
+34.81732330219614
+The predicted val is இரண்டு
+trimming/train/digits/3/0175_three.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/3/0175_three.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T05:51:14.000000Z
+  Duration: 00:00:01.18, start: 0.000000, bitrate: 9716 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 9750 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:51:14.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 99 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:51:14.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:51:14.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      37kB time=00:00:01.18 bitrate= 256.5kbits/s speed=0.828x
+video:0kB audio:37kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.205826%
+ audio cost : 67.30174
+Final video cost : 0.59750843
+36
+(6, 6)
+40.31387062678397
+39.630869966274346
+43.12480568639486
+36.82093920974356
+35.715475698100235
+36.66886286751936
+30.419446347869425
+37.37673765643632
+37.78741561395124
+28.644125590689118
+The predicted val is மூன்று
+trimming/train/digits/4/0175_four.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/4/0175_four.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T05:53:07.000000Z
+  Duration: 00:00:01.49, start: 0.000000, bitrate: 9441 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 9455 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:53:07.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 99 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:53:07.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T05:53:07.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      47kB time=00:00:01.48 bitrate= 256.4kbits/s speed=1.03x
+video:0kB audio:46kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.164024%
+ audio cost : 66.55831
+Final video cost : 0.70866215
+48
+(6, 8)
+39.386452530010615
+54.29455498938429
+45.00734895177434
+50.6108148170332
+39.60110823930875
+44.59116710856607
+45.94941359742929
+42.97875838309728
+33.785849037519355
+42.338655193180585
+The predicted val is இரண்டு
+trimming/train/digits/5/0175_five.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/5/0175_five.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T06:39:50.000000Z
+  Duration: 00:00:01.49, start: 0.000000, bitrate: 8662 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 8666 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:39:50.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 99 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:39:50.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:39:50.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      47kB time=00:00:01.48 bitrate= 256.4kbits/s speed=1.07x
+video:0kB audio:46kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.164024%
+ audio cost : 60.092644
+Final video cost : 0.70544475
+48
+(6, 8)
+37.35914457686903
+49.62800586438114
+41.71361734722108
+37.96925937098769
+47.40204185095067
+40.04707895444787
+42.64397460887817
+40.29675218500387
+38.94842547747299
+42.38733526523407
+The predicted val is இரண்டு
+trimming/train/digits/6/0175_six.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/6/0175_six.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T06:45:43.000000Z
+  Duration: 00:00:01.51, start: 0.000000, bitrate: 9078 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 9025 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:45:43.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 100 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:45:43.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:45:43.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      47kB time=00:00:01.50 bitrate= 256.4kbits/s speed=1.09x
+video:0kB audio:47kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.161497%
+ audio cost : 76.721794
+Final video cost : 0.70035404
+48
+(6, 8)
+40.55560289621462
+43.7399652579919
+40.90091247126294
+38.39235454310665
+29.34771348552238
+47.937331519131924
+35.382393668368714
+37.97230269437354
+39.70821415384392
+32.95801409931214
+The predicted val is ஆறு
+trimming/train/digits/7/0175_seven.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/7/0175_seven.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T06:46:25.000000Z
+  Duration: 00:00:01.28, start: 0.000000, bitrate: 8835 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 8796 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:46:25.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 99 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:46:25.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:46:25.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      40kB time=00:00:01.27 bitrate= 256.5kbits/s speed=0.908x
+video:0kB audio:40kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.190858%
+ audio cost : 83.90561
+Final video cost : 0.63820183
+42
+(6, 7)
+25.52736435558755
+38.021534416783226
+29.077279135589343
+31.82158043020817
+31.5206622835911
+32.47206531269847
+45.43485187059558
+29.767562559686684
+22.698997351804067
+33.34237043714874
+The predicted val is ஏழு
+trimming/train/digits/8/0175_eight.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/8/0175_eight.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T06:48:55.000000Z
+  Duration: 00:00:01.39, start: 0.000000, bitrate: 8628 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 8683 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:48:55.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 99 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:48:55.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:48:55.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      44kB time=00:00:01.39 bitrate= 256.4kbits/s speed=0.958x
+video:0kB audio:44kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.174958%
+ audio cost : 86.399704
+Final video cost : 0.6290098
+42
+(6, 7)
+43.00663881268195
+39.90714173229405
+40.02135227416188
+38.66709085996047
+29.923432626584354
+37.48656020764189
+34.92024502681928
+43.97815282905149
+34.22170807526736
+30.549609209964235
+The predicted val is எட்டு
+trimming/train/digits/9/0175_nine.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/9/0175_nine.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T06:49:59.000000Z
+  Duration: 00:00:01.51, start: 0.000000, bitrate: 8921 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 8867 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:49:59.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 99 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:49:59.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:49:59.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      47kB time=00:00:01.50 bitrate= 256.4kbits/s speed=1.02x
+video:0kB audio:47kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.161497%
+ audio cost : 61.225628
+Final video cost : 0.5929287
+48
+(6, 8)
+53.54777637000818
+51.749775006252605
+49.25778483110677
+51.680770454731444
+37.99843435674038
+49.802391634205144
+37.50046904748238
+43.38491679998387
+58.88443163475401
+33.16577883711709
+The predicted val is ஒன்பது
+trimming/train/digits/ten/0175_ten.mp4
+ffmpeg version N-89832-g07a96b6251 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.2.0 (GCC)
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-bzlib --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libmfx --enable-amf --enable-cuda --enable-cuvid --enable-d3d11va --enable-nvenc --enable-dxva2 --enable-avisynth
+  libavutil      56.  7.100 / 56.  7.100
+  libavcodec     58.  9.100 / 58.  9.100
+  libavformat    58.  5.100 / 58.  5.100
+  libavdevice    58.  0.100 / 58.  0.100
+  libavfilter     7. 11.101 /  7. 11.101
+  libswscale      5.  0.101 /  5.  0.101
+  libswresample   3.  0.101 /  3.  0.101
+  libpostproc    55.  0.100 / 55.  0.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'trimming/train/digits/ten/0175_ten.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    creation_time   : 2018-04-22T06:50:33.000000Z
+  Duration: 00:00:01.42, start: 0.000000, bitrate: 9165 kb/s
+    Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv), 1088x1920 [SAR 1:1 DAR 17:30], 9162 kb/s, 30 fps, 30 tbr, 30003 tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:50:33.000000Z
+      handler_name    : VideoHandler
+      encoder         : HEVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 100 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:50:33.000000Z
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'audio.wav':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp41isom
+    ISFT            : Lavf58.5.100
+    Stream #0:0(und): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 16000 Hz, mono, s16, 256 kb/s (default)
+    Metadata:
+      creation_time   : 2018-04-22T06:50:33.000000Z
+      handler_name    : SoundHandler
+      encoder         : Lavc58.9.100 pcm_s16le
+size=      44kB time=00:00:01.41 bitrate= 256.4kbits/s speed=0.988x
+video:0kB audio:44kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.172087%
+ audio cost : 56.075863
+Final video cost : 0.1563512
+48
+(6, 8)
+26.419129556242144
+43.22308637708821
+33.95884391805982
+33.308759337619904
+41.219467184420395
+29.173855273962953
+45.71505056292413
+31.356305126700022
+19.212747130300755
+56.76871319409498
+The predicted val is பத்து
+[ INFO:0] Initialize OpenCL runtime...
+
+Process finished with exit code 0
